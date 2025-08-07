@@ -1,32 +1,41 @@
-# FANGSCAN
+# FANGSCAN - Ethical Penetration Testing Tool
 
-> Basic penetration testing tool for Termux & Linux
+
+Advanced penetration testing tool for security professionals, working on both **Termux (Android)** and **Linux** systems.
 
 ## Features
-- Quick network scanning
-- Vulnerability detection
-- Works on Termux & Linux
+- Multi-mode scanning (Quick/Deep/Web/Vulnerability)
+- Automatic CVE detection
+- Integrated tool suggestions (Nikto, Hydra, Metasploit)
+- Cross-platform compatibility
 
-## 🛠️ Installation
-```
-```
-# 1. Install system tools
-# Linux:
-sudo apt install nmap hydra nikto metasploit
-```
-```
-# Termux:
-pkg install nmap hydra nikto metasploit
-```
-```
-# 2. Install Python requirements
-pip install -r requirements.txt
+## Installation
 
+### Linux
+```bash
+git clone https://github.com/yourusername/FANGSCAN.git
+cd FANGSCAN
+sudo ./setup.sh
 ```
 
+### Termux
+```bash
+pkg install git
+git clone https://github.com/yourusername/FANGSCAN.git
+cd FANGSCAN
+./setup.sh
+```
+
+## Usage
+```bash
+python3 fangscan.py
+```
 > **Warning**  
-> Only use on systems you own!
-```
+> This tool must only be used on systems you have explicit permission to scan.
+
 ## License
-GPLV3
-Copyright (C) 2025 masgroup2000
+GNU GPLv3
+
+Copyright (C) 2025 Masgroup
+## Contributing
+Pull requests welcome! Please follow ethical hacking guidelines.
