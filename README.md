@@ -13,16 +13,16 @@ Advanced penetration testing tool for security professionals, working on both **
 
 ### Linux
 ```bash
-git clone https://github.com/yourusername/FANGSCAN.git
-cd FANGSCAN
+git clone https://github.com/masgroup2000/FangScan.git
+cd FangScan
 sudo ./setup.sh
 ```
 
 ### Termux
 ```bash
 pkg install git
-git clone https://github.com/yourusername/FANGSCAN.git
-cd FANGSCAN
+git clone https://github.com/masgroup2000/FangScan.git
+cd FangScan
 ./setup.sh
 ```
 
