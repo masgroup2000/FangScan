@@ -1,0 +1,5 @@
+# Python Dependencies
+tkinter>=0  # For GUI interface
+
+# System Requirements (installed via setup.sh):
+# nmap hydra nikto metasploit
