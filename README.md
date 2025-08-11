@@ -1,4 +1,6 @@
-Universal Penetration Testing Tool v2.0
+FANGSCAN - Ethical Penetration Testing Tool
+Advanced penetration testing tool for security professionals, working on both Termux (Android) and Linux systems.
+V 2.0
 
 ---
 
