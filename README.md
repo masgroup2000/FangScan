@@ -10,7 +10,44 @@ V 2.0
 FangScan v2 is a terminal-based penetration testing tool for Termux and Linux. It performs various scans using Nmap and offers interactive prompts to assist with exploiting detected vulnerabilities.
 
 ---
+## Differences Between FangScan v1 and v2
 
+### User Interface
+- **v1:** Basic Tkinter GUI with fixed layout  
+- **v2:** Hybrid terminal + GUI, featuring interactive prompts and colored output  
+
+### Platform Support
+- **v1:** Supports Termux and Linux  
+- **v2:** Improved support for Termux and Linux with better environment detection and handling  
+
+### Scan Types
+- **v1:** Quick, Deep, Web, Vulnerability scans using Nmap scripts  
+- **v2:** Same scan types plus interactive exploitation prompts (XSS, SQL Injection, etc.)  
+
+### Vulnerability Detection
+- **v1:** Simple regex matching to detect vulnerabilities and suggest actions  
+- **v2:** Enhanced CVE detection with interactive prompts to launch real exploit tools  
+
+### Logging
+- **v1:** Logs displayed only in GUI console  
+- **v2:** Logs saved to timestamped files and displayed in console with colored output  
+
+### Exploit Support
+- **v1:** Action buttons that log exploit commands without real execution  
+- **v2:** Interactive prompts that ask users to confirm exploit execution and run actual tools  
+
+### Code Structure
+- **v1:** Basic object-oriented design with essential comments  
+- **v2:** More modular, readable, and well-commented code with improved error handling  
+
+### User Guidance
+- **v1:** Simple help pop-up with basic usage info  
+- **v2:** Detailed prompts with Yes/No/Maybe options guiding exploit decisions  
+
+### Legal Warnings
+- **v1:** Basic warning dialog before starting scans  
+- **v2:** Stronger legal disclaimers with explicit confirmation prompts ensuring authorized use
+  ---
 ## Features
 
 - Quick, Deep, Web, and Vulnerability scans using Nmap scripts  
